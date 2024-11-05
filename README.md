@@ -31,3 +31,41 @@ EDA Involves the exploring of Data to answer some questions about the Data such 
 - Which product are top sellers?
 - Which products are sold most in each region?
 
+## Data Analysis
+
+![image](https://github.com/user-attachments/assets/41485a18-3406-40e9-abe4-492d4b205dea)
+
+![image](https://github.com/user-attachments/assets/232d986a-7b3c-46da-a2c3-53de720e4c4b)
+
+``` SQL
+select orderdate,
+SUM(Total_Sales) AS Monthly_Sales from [dbo].[LitaSalesprojectdata]
+where orderdate between '01-01-2024' and '12-31-2024'
+Group by orderdate
+Order by orderdate
+```
+```SQL
+select Top 5 customer_id,
+ SUM(Total_Sales) AS Total_Purchase from [dbo].[LitaSalesprojectdata]
+Group by customer_id
+Order by Total_Purchase desc
+```
+```SQL
+SELECT 
+    Region, 
+    SUM(Total_Sales) AS Regional_Sales,
+    (SUM(Total_Sales) * 100.0 / (SELECT SUM(Total_Sales) FROM [dbo].[LitaSalesprojectdata])) AS Sales_Percentage 
+FROM 
+    [dbo].[LitaSalesprojectdata]
+GROUP BY 
+    Region
+ORDER BY 
+    Regional_Sales DESC;
+```
+## Data Visualisation
+
+![image](https://github.com/user-attachments/assets/535a2646-65c6-4f06-a2d1-e7a3d9431d88)
+
+
+
+
