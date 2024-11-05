@@ -25,3 +25,9 @@ ii. Removing of duplicates
 iii. Data cleaning and formating
 
 ## Exploratory Data Analysis
+
+EDA Involves the exploring of Data to answer some questions about the Data such as:
+- What is the overall sales trend?
+- Which product are top sellers?
+- Which products are sold most in each region?
+
