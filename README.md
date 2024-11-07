@@ -1,4 +1,23 @@
 # LITA_Project_Sales_Data
+
+## TABLE OF CONTENT
+
+[Project Overview](#project-overview)
+
+[Data Sources](#data-sources)
+
+[Tools Used](#tools-used)
+
+[Data Cleaning And Preparation](#data-cleaning-and-preparation)
+
+[Exploratory Data Analysis](#exploratory-data-analysis)
+
+[Data Analysis](#data-analysis)
+
+[Data Visualisation](#data-visualisation)
+
+[Reporting](#reporting)
+
 ## Project Overview
 This data analysis project is the sales performance of a retail store.This analysis helps to identify trends, opportunities, and challenges, and provide actionable insights to improve sales performance.
 
@@ -66,6 +85,6 @@ ORDER BY
 
 ![image](https://github.com/user-attachments/assets/535a2646-65c6-4f06-a2d1-e7a3d9431d88)
 
-
+## Reporting
 
 
