@@ -56,6 +56,12 @@ EDA Involves the exploring of Data to answer some questions about the Data such 
 
 ![image](https://github.com/user-attachments/assets/232d986a-7b3c-46da-a2c3-53de720e4c4b)
 
+```SQL
+select Top 1 product, SUM(Total_Sales) AS TotalSales from [dbo].[LitaSalesprojectdata]
+Group by product
+Order by TotalSales desc
+```
+
 ``` SQL
 select orderdate,
 SUM(Total_Sales) AS Monthly_Sales from [dbo].[LitaSalesprojectdata]
@@ -89,10 +95,16 @@ ORDER BY
 
 There is usually a spike in total revenue in february.
 
-Gloves are only sold in the South and West, Hats are not sold in the North, Jackets are sold in East and Noerth, 
+Gloves are only sold in the South and West, Hats are not sold in the North, Jackets are sold in East and North, 
 Shirts are sold in the East and North, Shoes are not sold in the North, socks are sold in the South and West.
 
 The highest sold product is Shoes and it is sold in February of the two years.
 
+Percentage sales is highest in the south with 44%, East 23%, North 18%, and West 14%
 
+## Recommendation
+
+More effort should be put in the month of April recording a low sales.
+
+Increase marketing for gloves and Socks in the North and East, Hats and Shoes in North, Jackets and Shirts in South and West.
 
