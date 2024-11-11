@@ -85,6 +85,14 @@ ORDER BY
 
 ![image](https://github.com/user-attachments/assets/535a2646-65c6-4f06-a2d1-e7a3d9431d88)
 
-## Reporting
+## Summary
+
+There is usually a spike in total revenue in february.
+
+Gloves are only sold in the South and West, Hats are not sold in the North, Jackets are sold in East and Noerth, 
+Shirts are sold in the East and North, Shoes are not sold in the North, socks are sold in the South and West.
+
+The highest sold product is Shoes and it is sold in February of the two years.
+
 
 
