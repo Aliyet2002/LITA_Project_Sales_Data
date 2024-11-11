@@ -18,6 +18,8 @@
 
 [Summary](#summary)
 
+[Recommendation](#recommendation)
+
 ## Project Overview
 This data analysis project is the sales performance of a retail store.This analysis helps to identify trends, opportunities, and challenges, and provide actionable insights to improve sales performance.
 
@@ -56,6 +58,7 @@ EDA Involves the exploring of Data to answer some questions about the Data such 
 
 ![image](https://github.com/user-attachments/assets/232d986a-7b3c-46da-a2c3-53de720e4c4b)
 
+The highest-selling product by total sales value
 ```SQL
 select Top 1 product, SUM(Total_Sales) AS TotalSales from [dbo].[LitaSalesprojectdata]
 Group by product
