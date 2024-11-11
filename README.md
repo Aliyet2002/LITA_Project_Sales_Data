@@ -65,6 +65,7 @@ Group by product
 Order by TotalSales desc
 ```
 
+Monthly totals sales for the current year
 ``` SQL
 select orderdate,
 SUM(Total_Sales) AS Monthly_Sales from [dbo].[LitaSalesprojectdata]
@@ -72,6 +73,7 @@ where orderdate between '01-01-2024' and '12-31-2024'
 Group by orderdate
 Order by orderdate
 ```
+
 ```SQL
 select Top 5 customer_id,
  SUM(Total_Sales) AS Total_Purchase from [dbo].[LitaSalesprojectdata]
