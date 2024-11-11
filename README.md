@@ -16,7 +16,7 @@
 
 [Data Visualisation](#data-visualisation)
 
-[Reporting](#reporting)
+[Summary](#summary)
 
 ## Project Overview
 This data analysis project is the sales performance of a retail store.This analysis helps to identify trends, opportunities, and challenges, and provide actionable insights to improve sales performance.
